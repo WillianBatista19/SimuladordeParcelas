@@ -1,0 +1,53 @@
+/* Criando configurações basicas de CSS3 para a página */
+
+/* Adicionando imagem de fundo */
+body {
+    background-image: url(/image/fundo.jpg);
+}
+
+/* Configurando H1 inicial da pág */
+h1 {
+    display: flex;
+    margin: auto;
+    justify-content: center;
+    padding: 10px 0px;
+}
+
+/* Configurando Label */
+label {
+    font-size: 1em;
+    font-weight: bold;
+    background-color: white;
+}
+
+/* Configurando forms */
+form {
+    padding: 10px 0px;
+}
+
+/* Configurando paragrafos */
+p {
+    display: flex;
+    margin: auto;
+    justify-content: center;
+    padding: 10px 0px;
+}
+
+/* Configurando a tabela */
+table {
+    border-collapse: collapse;
+    background-color: white;   
+    margin: auto;
+  }
+  
+  th, td {
+    border: 1px solid black;
+    padding: 10px;
+    text-align: center;
+    width: 80%;
+  }
+
+  tr:nth-child(even) {
+    background:lightgray;
+  }
+
